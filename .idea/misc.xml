@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Felipe Torres/AndroidStudioProjects/clicker/app/src/main/res/drawable/ic_baseline_delete_forever_24.xml" value="0.5475" />
-        <entry key="..\:/Users/Felipe Torres/AndroidStudioProjects/clicker/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Felipe Torres/AndroidStudioProjects/clicker/app/src/main/res/drawable/img_delete.xml" value="0.5475" />
+        <entry key="..\:/Users/Felipe Torres/AndroidStudioProjects/clicker/app/src/main/res/drawable/img_negativeone.xml" value="0.5475" />
+        <entry key="..\:/Users/Felipe Torres/AndroidStudioProjects/clicker/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>

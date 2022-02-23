@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:text="¿Que deséa contar?"
+        android:text="¿Que desea contar?"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,53 +35,11 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_titulo"
         app:layout_constraintVertical_bias="0.0" />
 
-    <Button
-        android:id="@+id/btn_contar"
-        android:layout_width="193dp"
-        android:layout_height="170dp"
-        android:backgroundTint="@color/black"
-        android:text="Contar"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.834"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
-
-    <Button
-        android:id="@+id/btn_restaruno"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
-        android:backgroundTint="@color/black"
-        android:text="-1"
-        android:textSize="22sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.129"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.481" />
-
-    <ImageButton
-        android:id="@+id/btn_borrar"
-        android:layout_width="140dp"
-        android:layout_height="86dp"
-        android:backgroundTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.132"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612"
-        app:srcCompat="@drawable/img_delete" />
-
     <TextView
         android:id="@+id/tv_contador"
         android:layout_width="100dp"
         android:layout_height="70dp"
         android:text="0"
-        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -90,6 +48,51 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.258" />
+
+
+    <Button
+        android:id="@+id/btn_contar"
+        android:layout_width="195dp"
+        android:layout_height="252dp"
+        android:backgroundTint="@color/black"
+        android:text="+1"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <Button
+        android:id="@+id/btn_restaruno"
+        android:layout_width="185dp"
+        android:layout_height="119dp"
+        android:backgroundTint="@color/black"
+        android:text="-1"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <ImageButton
+        android:id="@+id/btn_borrar"
+        android:layout_width="185dp"
+        android:layout_height="116dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66"
+        app:srcCompat="@drawable/img_delete" />
+
+
+</LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
